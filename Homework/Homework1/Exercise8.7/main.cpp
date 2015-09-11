@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
     int middleIndex;
 
     cout << "Please enter the name you want to find: ";
-    cin.getline(cin,keyName);//Issue
+    getline(cin,keyName);
 
     do {
         //Set middle to the subscript halfway between names[first] and names[last].
